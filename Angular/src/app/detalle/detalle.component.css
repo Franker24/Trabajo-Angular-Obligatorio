@@ -1,0 +1,64 @@
+/* Estilos para el header */
+header {
+  background-image: url("https://imgs.search.brave.com/XmmEGhdbDgPU-fuGpsCCXF5qalhfoCaRvaSMlOUbDyk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/ZnJlZWpwZy5jb20u/YXIvYXNzZXQvNDAw/L2NjL2NjZjcvRjEw/MDAwNjkxMC5qcGc");/* Fondo oscuro */
+  padding: 10px 20px; /* Espaciado alrededor */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  border-radius: 10px; /* Bordes redondeados para toda la barra */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
+}
+
+/* Estilo para el título h1 */
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+/* Estilos para la barra de navegación */
+nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: transparent; /* Fondo gris oscuro para el nav */
+  border-radius: 10px; /* Bordes redondeados para el nav */
+  padding: 5px 10px; /* Espaciado interno */
+}
+
+/* Estilos para cada botón dentro de la barra */
+nav li {
+  margin-left: 15px;
+}
+
+nav li button {
+  background-color: transparent; /* Color azul del botón */
+  border: none;
+  padding: 10px 15px;
+  border-radius: 25px; /* Bordes muy redondeados para los botones */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+nav li button:hover {
+  background-color: #0056b3; /* Oscurece el botón al pasar el mouse */
+}
+
+/* Estilo para los enlaces dentro de los botones */
+nav li button a {
+  text-decoration: none; /* Sin subrayado */
+  color: white; /* Texto blanco */
+  font-size: 16px;
+}
+
+nav li button a:hover {
+  color: #ddd; /* Color más claro al pasar el mouse */
+}
+
+
+nav li button a {
+  display: inline-block;
+  padding: 10px 15px;
+}
+
